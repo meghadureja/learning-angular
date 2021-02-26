@@ -4,8 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatCardModule } from '@angular/material/card';
+import { AngularMaterialModule } from './material.module';
 
 @NgModule({
   declarations: [
@@ -15,8 +14,7 @@ import { MatCardModule } from '@angular/material/card';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule, // new modules added here
-    MatToolbarModule,
-    MatCardModule
+    AngularMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
